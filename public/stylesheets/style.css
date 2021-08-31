@@ -10,15 +10,19 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.nav-item{
+  margin: 0px 30px;
+}
 h1 {
   color: grey;
-  text-shadow: 1px 1px white;
+  text-shadow: 3px 3px rgba(201, 201, 201, 0.781);
 }
 
 a {
   color: grey;
   margin: 10px 10px;
   text-transform: uppercase;
+  text-shadow: 4px 4px rgba(209, 208, 208, 0.801);
   font-size: 1.5em;
 }
 a:hover {
@@ -38,18 +42,18 @@ a:hover {
 
 h2 {
   font-size: 6em;
-  background-color: rgba(128, 128, 128, 0.733);
+  /* background-color: rgba(128, 128, 128, 0.733); */
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-transform: uppercase;
   line-height: 2em;
   margin-top: 12%;
-  text-shadow: 1px 1px darkslategrey;
+  text-shadow: 5px -5px rgba(67, 68, 68, 0.74);
 }
 h4 {
-  background-color: rgba(255, 255, 255, 0.562);
+  /* background-color: rgba(255, 255, 255, 0.562); */
   color: white;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  text-shadow: 1px 1px darkslategrey;
+  text-shadow: 3px 3px  rgba(67, 68, 68, 0.74);
 }
 /* ABOUT */
 
@@ -90,4 +94,8 @@ h3 {
 }
 .images {
   padding: 100px 150px 0 150px;
+}
+.navbar-toggler-icon{
+  /* background-color: grey; */
+  color: white;
 }

@@ -32,7 +32,7 @@ You should use `express` to create your app, build the routing logic with the bu
 1. A **Home** page, that welcomes the visitor and links to the other pages on the website.
 2. An **About** page, that shares some basic information about the person.
 3. A **Works** page, where you showcase some of the work of the person you chose.
-4. Bonus: A **Photo Gallery** page, displaying some pictures of the person/their work.
+4. Bonus: A **Gallery** page, displaying some pictures of the person/their work.
 
 You should go through the following steps:
 
